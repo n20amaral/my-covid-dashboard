@@ -80,7 +80,7 @@ class Dashboard extends Component {
             </Col>
           </Row>
         ) : (
-          <Row className="h-100 d-flex align-items-center justify-content-center">
+          <Row className="h-90 d-flex align-items-center justify-content-center">
             <Spinner type="grow" />
           </Row>
         )}
